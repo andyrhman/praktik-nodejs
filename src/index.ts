@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json()); // ! INI SELALU HARUS ADA DIATAS :)
 
-routes(app);
+routes(app); // ! INi Kode
 
 app.listen(8000, () => {
     console.log("Server berhasil jalan");
