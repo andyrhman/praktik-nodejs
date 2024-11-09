@@ -10,3 +10,4 @@ routes(app); // ! INi Kode
 app.listen(8000, () => {
     console.log("Server berhasil jalan"); // ! Ini kode server berjalan
 });
+// hello world
